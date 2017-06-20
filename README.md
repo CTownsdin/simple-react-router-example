@@ -12,8 +12,10 @@ $ yarn start
 and observe clicking around browser router behavior
 code starts in index.js with  
 
+```
 ReactDOM.render((
   <BrowserRouter>
     <App />
   </BrowserRouter>
   ), document.getElementById('root'));
+```
